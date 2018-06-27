@@ -1,5 +1,4 @@
 import { forIn } from 'lodash';
-import 'reflect-metadata';
 
 export interface Metadata {
   name: string;
