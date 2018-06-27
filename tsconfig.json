@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "lib": ["esnext"],
+    "noImplicitAny": true,
+    "sourceMap": false,
+    "strict": true,
+    "target": "es2015",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true
+  },
+  "include": ["./src"],
+  "exclude": ["archive", "node_modules", "dist", "build"]
+}

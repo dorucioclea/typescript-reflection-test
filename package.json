@@ -1,0 +1,21 @@
+{
+  "name": "typescript-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node src/example.ts",
+    "test": "tsc --noEmit",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.110",
+    "ts-node": "^7.0.0",
+    "typescript": "^2.7.2"
+  },
+  "dependencies": {
+    "@types/node": "^8",
+    "lodash": "^4.17.10",
+    "reflect-metadata": "^0.1.12"
+  }
+}
